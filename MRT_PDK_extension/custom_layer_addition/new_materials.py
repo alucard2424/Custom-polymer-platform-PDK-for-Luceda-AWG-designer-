@@ -85,8 +85,8 @@ TECH.overwrite_allowed.append("MATERIAL_STACKS")
 
 # Thicknesses of the different layers
 
-MSTACK_MAT1_HEIGHT = 3.2  # um
-MSTACK_MAT2_HEIGHT = 10.00  # um
+MSTACK_MAT1_HEIGHT = xx  # um
+MSTACK_MAT2_HEIGHT = xx  # um
 
 
 # Material stacks with Material 1 and 2, where Mat1 is a core, and mat2 is a cladding
