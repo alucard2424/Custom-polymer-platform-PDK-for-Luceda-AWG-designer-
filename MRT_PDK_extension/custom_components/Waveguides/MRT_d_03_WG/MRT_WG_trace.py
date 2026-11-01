@@ -119,40 +119,17 @@ class MRTWG3200(MRTWaveguideTemplate):
         core_width = PositiveNumberProperty(locked=True)
 
         def _default_core_width(self):
-            return 3.2
+            return xx
 
     class CircuitModel(MRTWaveguideTemplate.CircuitModel):
         def _default_n_eff(self):
-            return 1.42635
+            return xx
 
 
 
 
 
-# class MRTWG3000(MRTWaveguideTemplate):
-#     def _default_name(self):
-#         return "MRTWG3000"
-#
-#     class Layout(MRTWaveguideTemplate.Layout):
-#         core_width = PositiveNumberProperty(locked=True)
-#
-#         def _default_core_width(self):
-#             return 3.0
-#
-#     class CircuitModel(MRTWaveguideTemplate.CircuitModel):
-#         def _default_n_eff(self):
-#             return 1.42578
-#
-#
-# class MRTWG3500(MRTWaveguideTemplate):
-#     def _default_name(self):
-#         return "MRTWG3500"
-#
-#     class Layout(MRTWaveguideTemplate.Layout):
-#         core_width = PositiveNumberProperty(locked=True)
-#
-#         def _default_core_width(self):
-#             return 3.5
+
 
 
 class RoundedMRTWaveguide(RoundedWaveguide):
